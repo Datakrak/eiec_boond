@@ -2,26 +2,24 @@
 from flask import Flask
 from dotenv import load_dotenv
 import os
-import base64
+import boondmanager
 
 load_dotenv()
-mail = os.getenv('mail')
-pwd = os.getenv('pwd')
+
+#Connexion BDD
+DB_IP=os.getenv('DB_IP')
+DB_USER=os.getenv('DB_USER')
+DB_PWD=os.getenv('DB_PWD')
+DB_NAME=os.getenv('DB_NAME')
 
 app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    get_boond()
+    url = "https://ui.boondmanager.com/api/payments"
+    df = boondmanager.get_boond_csv(url)
+    print(df)
     return 'Hello World!'
-
-def get_boond():
-    print(mail)
-    print(pwd)
-    token = base64.b64encode(b"{mail}:{pwd}")
-    print(token)
-    #conn_str = f"Basic {token}"
-    return 0
     
 if __name__ == "__main__":
     app.run()
