@@ -7,3 +7,165 @@ App 2917301 output: b'e21haWx9Ontwd2R9'
 App 3148151 output: jeremy.mozin@aquaspot.fr
 App 3148151 output: 9*DSa99@v@PAoE
 App 3148151 output: b'e21haWx9Ontwd2R9'
+App 3070944 output: Traceback (most recent call last):
+App 3070944 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 3070944 output:     app_module = load_app()
+App 3070944 output:            
+App 3070944 output:       ^^^^^^^
+App 3070944 output: ^^^
+App 3070944 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 3070944 output:     spec.loader.exec_module(app_module)
+App 3070944 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 3070944 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 3070944 output:   File "/home/moje3831/EIEC/Boondmanager/passenger_wsgi.py", line 7, in <module>
+App 3070944 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 3070944 output:     
+App 3070944 output:        ^^^^^^
+App 3070944 output: ^^^^^^^^^^^^
+App 3070944 output: ^^^^^^^^^^^^^
+App 3070944 output: ^^
+App 3070944 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 3070944 output:     module = _load(spec)
+App 3070944 output:              ^^^^^^^^^^^
+App 3070944 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 3070944 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 3070944 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 3070944 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 3070944 output:   File "app.py", line 5, in <module>
+App 3070944 output:     import boondmanager
+App 3070944 output:   File "/home/moje3831/EIEC/Boondmanager/boondmanager.py", line 4, in <module>
+App 3070944 output:     import requests
+App 3070944 output: ModuleNotFoundError: No module named 'requests'
+App 3076689 output: Traceback (most recent call last):
+App 3076689 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 3076689 output:     app_module = load_app()
+App 3076689 output:        
+App 3076689 output:           ^^
+App 3076689 output: ^^^^^^^^
+App 3076689 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 3076689 output:     spec.loader.exec_module(app_module)
+App 3076689 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 3076689 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 3076689 output:   File "/home/moje3831/EIEC/Boondmanager/passenger_wsgi.py", line 7, in <module>
+App 3076689 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 3076689 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3076689 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 3076689 output:     
+App 3076689 output: module = _load(spec)
+App 3076689 output:    
+App 3076689 output:           ^^^^^^^^^^^
+App 3076689 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 3076689 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 3076689 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 3076689 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 3076689 output:   File "app.py", line 5, in <module>
+App 3076689 output:     import boondmanager
+App 3076689 output:   File "/home/moje3831/EIEC/Boondmanager/boondmanager.py", line 4, in <module>
+App 3076689 output:     import requests
+App 3076689 output: ModuleNotFoundError: No module named 'requests'
+App 3077457 output: <_io.StringIO object at 0x151572a201f0>
+App 3077457 output: Référence interne                         object
+App 3077457 output: Date                                      object
+App 3077457 output: Achat - Date                              object
+App 3077457 output: Achat - Référence                         object
+App 3077457 output: Achat - Titre                             object
+App 3077457 output: Achat - Fournisseur - Contact - Nom       object
+App 3077457 output: Achat - Fournisseur - Contact - Prénom    object
+App 3077457 output: Achat - Fournisseur - Société - Nom       object
+App 3077457 output: Achat - Référence fournisseur             object
+App 3077457 output: Achat - Projet - Référence                object
+App 3077457 output: Achat - Type                              object
+App 3077457 output: Achat - Catégorie                         object
+App 3077457 output: Achat - Début                             object
+App 3077457 output: Achat - Fin                               object
+App 3077457 output: Numéro Facture                            object
+App 3077457 output: État                                      object
+App 3077457 output: Paiement prévu                            object
+App 3077457 output: Paiement effectué                         object
+App 3077457 output: Début                                     object
+App 3077457 output: Fin                                       object
+App 3077457 output: Achat - Devise                            object
+App 3077457 output: Montant HT                                object
+App 3077457 output: Montant TTC                               object
+App 3077457 output: Achat - Responsable manager               object
+App 3077457 output: Achat - Agence                            object
+App 3077457 output: Achat - Pôle                              object
+App 3077457 output: TVA                                       object
+App 3077457 output: Mode de règlement                         object
+App 3077457 output: Achat - Conditions de règlement           object
+App 3077457 output: dtype: object
+App 3077457 output:      Référence interne  ... Achat - Conditions de règlement
+App 3077457 output: 0              PMT7600  ...                        Comptant
+App 3077457 output: 1              PMT7599  ...                        Comptant
+App 3077457 output: 2              PMT7598  ...                        Comptant
+App 3077457 output: 3              PMT7597  ...                        Comptant
+App 3077457 output: 4              PMT3673  ...                        Comptant
+App 3077457 output: ...                ...  ...                             ...
+App 3077457 output: 5893              PMT5  ...                        Comptant
+App 3077457 output: 5894              PMT4  ...                        Comptant
+App 3077457 output: 5895              PMT3  ...                        Comptant
+App 3077457 output: 5896              PMT1  ...                        Comptant
+App 3077457 output: 5897              PMT2  ...                        Comptant
+App 3077457 output: [5898 rows x 29 columns]
+App 3079777 output: Traceback (most recent call last):
+App 3079777 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 3079777 output:     app_module = load_app()
+App 3079777 output:      
+App 3079777 output:            
+App 3079777 output:  ^^^^^^^^^^
+App 3079777 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 3079777 output:     spec.loader.exec_module(app_module)
+App 3079777 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 3079777 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 3079777 output:   File "/home/moje3831/EIEC/Boondmanager/passenger_wsgi.py", line 9, in <module>
+App 3079777 output:     application = wsgi.application
+App 3079777 output:      
+App 3079777 output:              
+App 3079777 output: ^^^^^^^^^^^
+App 3079777 output: ^^^^^
+App 3079777 output: AttributeError: 
+App 3079777 output: module 'wsgi' has no attribute 'application'
+App 3082755 output: <_io.StringIO object at 0x14d8051281f0>
+App 3082755 output: Référence interne                         object
+App 3082755 output: Date                                      object
+App 3082755 output: Achat - Date                              object
+App 3082755 output: Achat - Référence                         object
+App 3082755 output: Achat - Titre                             object
+App 3082755 output: Achat - Fournisseur - Contact - Nom       object
+App 3082755 output: Achat - Fournisseur - Contact - Prénom    object
+App 3082755 output: Achat - Fournisseur - Société - Nom       object
+App 3082755 output: Achat - Référence fournisseur             object
+App 3082755 output: Achat - Projet - Référence                object
+App 3082755 output: Achat - Type                              object
+App 3082755 output: Achat - Catégorie                         object
+App 3082755 output: Achat - Début                             object
+App 3082755 output: Achat - Fin                               object
+App 3082755 output: Numéro Facture                            object
+App 3082755 output: État                                      object
+App 3082755 output: Paiement prévu                            object
+App 3082755 output: Paiement effectué                         object
+App 3082755 output: Début                                     object
+App 3082755 output: Fin                                       object
+App 3082755 output: Achat - Devise                            object
+App 3082755 output: Montant HT                                object
+App 3082755 output: Montant TTC                               object
+App 3082755 output: Achat - Responsable manager               object
+App 3082755 output: Achat - Agence                            object
+App 3082755 output: Achat - Pôle                              object
+App 3082755 output: TVA                                       object
+App 3082755 output: Mode de règlement                         object
+App 3082755 output: Achat - Conditions de règlement           object
+App 3082755 output: dtype: object
+App 3082755 output:      Référence interne  ... Achat - Conditions de règlement
+App 3082755 output: 0              PMT7600  ...                        Comptant
+App 3082755 output: 1              PMT7599  ...                        Comptant
+App 3082755 output: 2              PMT7598  ...                        Comptant
+App 3082755 output: 3              PMT7597  ...                        Comptant
+App 3082755 output: 4              PMT3673  ...                        Comptant
+App 3082755 output: ...                ...  ...                             ...
+App 3082755 output: 5893              PMT5  ...                        Comptant
+App 3082755 output: 5894              PMT4  ...                        Comptant
+App 3082755 output: 5895              PMT3  ...                        Comptant
+App 3082755 output: 5896              PMT1  ...                        Comptant
+App 3082755 output: 5897              PMT2  ...                        Comptant
+App 3082755 output: [5898 rows x 29 columns]
