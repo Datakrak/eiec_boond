@@ -16,10 +16,6 @@ token_boondmanager = base64.b64encode(auth_str.encode('ascii')).decode()
 
 #Envoi une requête GET à Boond sur l'url précisée. Renvoi le dataframe pandas correspondant.
 def get_boond_csv(url : str):
-    if url[-4:] != ".csv":
-        url = url + ".csv"
-    else:
-        pass
 
     headers = {
         "Authorization":f"Basic {token_boondmanager}"

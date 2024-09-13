@@ -3,3 +3,5 @@ python-dotenv==1.0.1
 mysql-connector-python==8.0.28
 requests
 pandas
+SQLAlchemy
+pymysql
